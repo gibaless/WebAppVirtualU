@@ -1,0 +1,4 @@
+Agarras fon_bot.gif y haces la primer parte de la imagen antes de la curvita que tenga de ancho 200px y que la imagen
+en total tenga un ancho de 1000px.
+
+El alto no lo tocas!!!!!!!

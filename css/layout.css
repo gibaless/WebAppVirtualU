@@ -1,0 +1,939 @@
+
+/* Layout Stylesheet */ 
+
+body {
+ margin:5px;
+ background: url('../images/bodybg.jpg') repeat;
+ color: #333333;
+ text-align:center;
+font-family: Verdana, Calibri, Tahoma, Arial;
+ padding:0;
+ 
+ }
+
+#outer {
+ text-align:left;
+ border:1px solid #444;
+ -moz-border-radius:1px 1px 1px 1px;
+ -moz-box-shadow:0 0 5px #333333;
+ width:1150px;
+ margin:auto;
+ }
+ .nuevalinea { margin-top: 5px;}
+
+#hdr {
+ height:146px;
+ background: url('../images/bg_header.jpg') no-repeat;
+  border-bottom:1px solid #003399;
+ }
+
+
+#bodyblock {
+ position:relative;
+ background: #FFF;
+ color: #333333;
+ width:100%;
+ padding:0;
+ }
+
+#l-col {
+ float:left;
+ width:156px;
+ min-height: 950px;
+ border-right: 1px dotted #566D7E;
+ background-color: #87ceeb; //#e0eee0;//#A0CFEC;
+
+ }
+
+#cont {
+ width:994px;
+ min-height: 950px;
+ background: white;
+ color: #333333;
+ padding-top: 5px;
+ text-align:left;
+
+ }
+
+#contPopUp {
+ width:460px;
+ min-height: 180px;
+ background: white;
+ color: #333333;
+ padding-top: 5px;
+ text-align:left;
+
+ }
+#ftr {
+ 
+  background: #ffffff url('../ftr.gif') repeat-x;
+  color: #222;
+  font: 11px Verdana, Arial;
+  padding-right:200px;
+  padding-top:15px;
+  padding-bottom: 10px;
+  text-align: right;
+  height: 14px;
+  margin-top: 0px;
+ }
+ 
+ a {
+ 	font-size : 11px;
+	font-family : Verdana, Calibri, Tahoma, Arial;
+	line-height: 20px;
+	color: #003399;
+ }
+ 
+ p {
+ 	font-size : 11px;
+	font-family : Verdana, Calibri, Tahoma, Arial;
+	line-height: 20px;
+
+ }
+a:hover {
+	color: #0099FF;
+	
+ }
+
+.separaModulo { margin-top: 5px;}
+
+
+ h3 {
+ font-family : Verdana, Calibri, Tahoma, Arial;
+ line-height: 22px;
+ font-size : 14px;
+ margin-left: 10px;
+ color: #003366;
+ }
+ h2 {
+ font-family : Verdana, Calibri, Tahoma, Arial;
+ line-height: 22px;
+ font-size : 14px;
+ margin-left: 10px;
+ color: #003366;
+ } 
+ 
+
+ /** Mi Calendario **/
+ 
+ 	
+	.calendarBox {
+		position: relative;
+		top: 5px;
+		margin-left: 20px;
+		padding: 5px;
+		width: 354px;
+		//border: 1px dotted #62A9FF;
+		font-size:11px; 
+		font-family: Verdana, Arial; 
+		line-height:16px; 
+		height: 380px; 
+		width:360px;
+
+	}
+
+	.calendarFloat {
+		float: left;
+		width: 45px;
+		height: 45px;
+		margin: 1px 0px 0px 1px;
+		padding: 1px;
+		border: 1px dotted #62A9FF;
+		position: relative; left: 0px;
+	}
+	
+ 	.calendarEventos {
+		display: none; 
+		float: right; 
+		position: absolute;
+		top: 40px;
+		right: 10px;
+		font-size:11px; font-family: Verdana, Arial; 
+		line-height:14px; 
+		height: 820px; 
+		width:590px; 
+		background-color: #e6e6fa; margin-top: 5px;
+		border-style: groove; border-width: 2px; border-color: #86BCFF;		
+		//background: url(../images/sticky-notes.jpg) no-repeat top left;  
+		//background:lime;
+		
+		}
+
+ 	.calendarEventoNuevo {
+		display: none; 
+		float: right; 
+		position: relative;
+		top: -392px;
+		right: 40px;
+		font-size:11px; font-family: Verdana, Arial; 
+		line-height:14px; 
+		height: 480px; 
+		width:500px; 
+		background-color: #e6e6fa; margin-top: 5px;
+		border-style: groove; border-width: 2px; border-color: #86BCFF;
+		
+		}
+
+ 
+ label {
+ 
+	font-size : 11px;
+	font-family : Verdana, Calibri, Tahoma, Arial;
+	line-height: 20px;
+
+ }
+
+.tdlabel{
+	
+	font-size : 11px;
+	font-family : Verdana, Calibri, Tahoma, Arial;
+	line-height: 20px;
+	text-align: right;
+
+}
+ textarea {
+
+ 	border: 1px solid #0066CC;
+ 	padding: 2px 2px;
+	margin-left: 4px;
+	} 
+ select {
+
+ 	border: 1px solid #0066CC;
+	padding: 1px;
+	} 
+ select:focus {
+
+    border: 1px solid #0066CC;
+    background: #CCDDF2;
+	} 
+ input.login {
+ padding: 4px 2px;
+ width: 120px;
+ border: 1px solid #0066CC;
+ }
+ 
+textarea.login {
+ padding: 4px 2px;
+ border: 1px solid #0066CC;
+
+ }
+ input {
+ 	padding: 2px 2px;
+	margin-left: 4px;
+	border: 1px solid #0066CC;
+ }
+/*
+input.login:hover, textarea.login:hover {
+    border: 1px solid #0066CC;
+    background: #CCDDF2;
+}
+*/
+input.login:focus, textarea.login:focus {
+    border: 1px solid #0066CC;
+    background: #CCDDF2;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid #0066CC;
+    background: #CCDDF2;
+}
+ .tituloIzq
+{
+    background-color: #0bbbe9; 
+	color:#FFFFFF; 
+	border-top:1px groove #888; 
+	border-bottom:1px solid #888; 
+	font-family : Verdana, Calibri, Tahoma, Arial; 
+	font-size:12px; 
+	font-weight:bold; 
+	height: 25px;
+	margin-top: 0px;
+	text-align: center;
+	padding-top: 10px;
+	
+}
+
+.slogan
+{
+    	text-shadow: #bbb 2px 2px 1px;
+	background: url(http://www.gibaless.com.ar/virtualuphp/images/slogan.jpg) no-repeat; 
+	color:#084B8A; 
+	font-family : Verdana, Calibri, Verdana, Arial, Tahoma; 
+	font-size:10pt; 
+	font-weight:bold; 
+	height: 30px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 0;
+	position: relative; 
+
+
+}
+
+
+
+
+/*Calendar 
+-------------------------------------------------------------- */
+div.calendar {
+position : relative;
+}
+.calendar table {
+cursor : pointer;
+border : 1px solid #ccc;
+font-size : 11px;
+color : #000;
+background : #fff;
+font-family : "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+}
+.calendar .button {
+text-align : center;
+padding : 2px;
+}
+.calendar .nav {
+background : #f5f5f5;
+}
+.calendar thead .title {
+font-weight : bold;
+text-align : center;
+background : #dedede;
+color : #000;
+padding : 2px 0 3px 0;
+}
+.calendar thead .headrow {
+background : #f5f5f5;
+color : #444;
+font-weight : bold;
+}
+.calendar thead .daynames {
+background : #fff;
+color : #333;
+font-weight : bold;
+}
+.calendar thead .name {
+border-bottom : 1px dotted #ccc;
+padding : 2px;
+text-align : center;
+color : #000;
+}
+.calendar thead .weekend {
+color : #666;
+}
+.calendar thead .hilite {
+background-color : #444;
+color : #fff;
+padding : 1px;
+}
+.calendar thead .active {
+background-color : #d12f19;
+color : #fff;
+padding : 2px 0 0 2px;
+}
+.calendar tbody .day {
+width : 1.8em;
+color : #222;
+text-align : right;
+padding : 2px 2px 2px 2px;
+}
+.calendar tbody .day.othermonth {
+font-size : 80%;
+color : #bbb;
+}
+.calendar tbody .day.othermonth.oweekend {
+color : #fbb;
+}
+.calendar table .wn {
+padding : 2px 2px 2px 2px;
+border-right : 1px solid #000;
+background : #666;
+}
+.calendar tbody .rowhilite td {
+background : #fff1af;
+}
+.calendar tbody .rowhilite td.wn {
+background : #fff1af;
+}
+.calendar tbody td.hilite {
+padding : 1px 1px 1px 1px;
+background : #444 !important ;
+color : #fff !important ;
+}
+.calendar tbody td.active {
+color : #fff;
+background : #529214 !important ;
+padding : 2px 2px 0 2px;
+}
+.calendar tbody td.selected {
+font-weight : bold;
+border : 1px solid #888;
+padding : 1px 1px 1px 1px;
+background : #f5f5f5 !important ;
+color : #222 !important ;
+}
+.calendar tbody td.weekend {
+color : #666;
+}
+.calendar tbody td.today {
+font-weight : bold;
+color : #529214;
+background : #d9efc2;
+}
+.calendar tbody .disabled {
+color : #999;
+}
+.calendar tbody .emptycell {
+visibility : hidden;
+}
+.calendar tbody .emptyrow {
+display : none;
+}
+.calendar tfoot .footrow {
+text-align : center;
+background : #556;
+color : #fff;
+}
+.calendar tfoot .ttip {
+background : #222;
+color : #fff;
+font-size : 10px;
+border-top : 1px solid #dedede;
+padding : 3px;
+}
+.calendar tfoot .hilite {
+background : #aaf;
+border : 1px solid #04f;
+color : #000;
+padding : 1px;
+}
+.calendar tfoot .active {
+background : #77c;
+padding : 2px 0 0 2px;
+}
+.calendar .combo {
+position : absolute;
+display : none;
+top : 0;
+left : 0;
+width : 4em;
+border : 1px solid #ccc;
+background : #f5f5f5;
+color : #222;
+font-size : 90%;
+z-index : 100;
+}
+.calendar .combo .label, .calendar .combo .label-IEfix {
+text-align : center;
+padding : 1px;
+}
+.calendar .combo .label-IEfix {
+width : 4em;
+}
+.calendar .combo .hilite {
+background : #444;
+color : #fff;
+}
+.calendar .combo .active {
+border-top : 1px solid #999;
+border-bottom : 1px solid #999;
+background : #dedede;
+font-weight : bold;
+}
+
+/*
+.TableBgBig { float: left; margin-left: 10px; border: 1px solid #016ba6;}
+
+
+
+.TableBgBig TH { height: 30px; font-weight: bold; color: #000000; text-align: center; font-size: 12px; }
+.TableBgBig TD { padding-top: 4px; padding-bottom: 4px; font-size: 11px; border-right: 1px dotted #016ba6; 
+				padding-left:3px; padding-right:3px;}
+.TableBgBig A {color: #000000; }
+
+.TableBgBig A:hover {color: #336699; }
+
+.TrPar{
+	background-color:#FFFFFF;
+}
+
+.TrImPar{
+	background-color:#C6DEFF;
+}
+
+*/
+.Formulario{
+	font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;
+}
+
+.FormularioPopUp 
+{ margin-left: 0px; 
+   margin-top: 10px;
+	font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;
+}
+
+/**** Estilo del paginador ****/
+.paginador {
+	position: relative;
+	font-family:Verdana,Tahoma,Arial,Helvetica,Sans-Serif;
+	font-size: 12px;
+	text-align:center;
+	padding:4px 6px 4px 0;
+	color:#336699;
+	margin-left: 10px;
+	width: 980px;
+	height: 30px;
+	font-weight: bold;
+}
+
+.paginador a{
+	color:#0030ce;
+	text-decoration:none;
+	
+	padding:5px 6px 4px 5px;
+	margin:0 3px 0 3px;
+	border:1px solid #b7d8ee;
+}
+.paginador a:hover {
+	color:#fff;
+	border:1px solid #b7d8ee;
+	background-color:#4682B4;
+}
+.paginador.previous-off,
+.paginador .next-off {
+border:solid 1px #DEDEDE;
+color:#888888;
+display:block;
+float:left;
+font-weight:bold;
+margin-right:2px;
+padding:3px 4px;
+}
+
+.paginador a:active{
+	padding:5px 6px 4px 5px;
+	margin:0 3px 0 3px;
+	border:1px solid #b7d8ee;
+	font-weight:bold;
+	color:#eeeeee;
+	background-color:#4682B4;
+}
+
+/*** Hora oficialll */
+#reloj{
+    font-family: Verdana, Arial;
+    font-weight: bold;
+    color: #232323;
+    padding:2px;
+    border:2px groove #ccc;
+    font-size: 28px;
+    width: 96px;
+    text-shadow: #003366 1px 1px 1px;
+}
+
+
+/* Listado de Tablas */
+
+.TableBgBig { 
+
+	margin-left: 10px; 
+	margin-top: 15px; 
+	margin-bottom: 10px;
+	width: 980px;
+	border: 0px;
+	//float: left; 
+
+	
+}
+
+
+
+/*Header and Pager styles*/
+.HeaderStyle, .PagerStyle /*Common Styles*/
+{
+
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size:12px;
+    height: 40px;
+    background: url('../images/grilla/HeaderChromeBlack.jpg') repeat-x;
+    margin-left: 10px;
+
+	border: 0;
+    
+}
+.HeaderStyle th
+{
+    padding: 5px;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+.HeaderStyle a
+{
+    text-decoration:none;
+    color:#ffffff;
+    display:block;
+    text-align:left;
+    font-weight:normal;
+
+}
+.PagerStyle table
+{
+    text-align:center;
+    margin:auto;
+}
+.PagerStyle table td
+{
+    border:0px;
+    padding:5px;
+}
+.PagerStyle td
+{
+    border-top: #1d1d1d 3px solid;
+}
+.PagerStyle a
+{
+    color:#ffffff;
+    text-decoration:none;
+    padding:2px 10px 2px 10px;
+    border-top:solid 1px #777777;
+    border-right:solid 1px #333333;
+    border-bottom:solid 1px #333333;
+    border-left:solid 1px #777777;
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size:10px;
+}
+.PagerStyle span
+{
+    font-weight:bold;
+    color:#FFFFFF;
+    text-decoration:none;
+    padding:2px 10px 2px 10px;
+}
+/*RowStyles*/
+.RowStyle td, .AltRowStyle td, .SelectedRowStyle td, .EditRowStyle td /*Common Styles*/
+{
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size:10px;
+    padding: 5px;
+    border-right: 1px solid #1d1d1d;
+    border-bottom: 1px solid #4f4f4f;
+
+}
+.TDleft{
+
+border-left: solid 1px #1d1d1d;
+
+}
+.TDleftright{
+        border-right: 1px solid #1d1d1d;
+	border-left: solid 1px #1d1d1d;
+    border-bottom: 1px solid #4f4f4f;
+	text-decoration:none;
+}
+.RowStyle td
+{
+    background-color: #fffff0;
+}
+.AltRowStyle td
+{
+    background-color: #e6e6fa;//#F9F5EC;
+}
+.SelectedRowStyle td:hover
+{
+    background-color: #f0f8ff// #ffff66;
+}
+
+.botonGrilla
+{
+    width: 21px;
+    height: 21px;
+}
+
+.Formulario{
+	font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;
+	display:block; 
+	overflow:hidden;
+    margin-left: 200px;
+}
+
+/*Filtro */
+
+.Filtro{
+	font-size : 11px;
+	font-family : Tahoma,Verdana,Arial;
+	//display:block; 
+	//overflow:hidden;
+    	margin-left: 10px;
+	//height: 120px;
+	width: 930px;
+
+}
+
+.Filtro .SeparaFiltro
+{
+	height: 30px;
+}
+
+.SeparaModulo
+{
+	//width: 300px;
+	float: left;
+	margin-left: 8px;
+}
+
+ .LabelFiltro
+{
+	text-align:right; 
+       font-weight:bold;
+	float: left;
+	margin-left: 2px;
+	margin-top: 4px;
+	//position: relative;
+	//left: 4px;
+}
+
+.TxtFiltro
+{
+    /* width: 150px;*/
+    position: relative;
+    top: -3px;
+    left: 5px;
+}
+
+ .MiniTxtFiltro
+{ 
+    width: 20px;
+    position: relative;
+    top: -4px;
+    left: 5px;
+}
+
+.AcomodaCalendario
+{
+	position: relative;
+/*    	top: -4px;
+    	left: 5px;*/
+	cursor: pointer;
+}
+
+.botonesFiltro
+{
+	position: relative;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	margin-left: 20px;
+}
+
+.botonFiltro
+{
+	//background-image:url('../images/botonGris2.png'); 
+	background-color: #8EB4E6;
+	cursor: pointer;
+	font-size: 12px; 
+	font-weight: bold; 
+	//width: 119px; 
+	//height: 30px;
+	text-align: center; 
+	//vertical-align: middle; 
+	padding: 4px 8px; 
+	border: 1px solid #4985D6;
+
+}
+.botonFiltro:hover
+{
+	//background-image:url('../images/botonGris2.png'); 
+	background-color: #CEDEF4;
+}
+.SpaceFiltroBusqueda{
+	background-color: #ECF4FF;
+	padding: 1px 0;
+	margin-left: 10px;
+	margin-right: 180px;
+
+}
+.SpaceFiltroBusquedaBig{
+	background-color: #ECF4FF;
+	padding: 1px 0;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+.LabelSmallFiltro{
+	position: relative;
+	top: -4px;
+	right: -4px;
+
+}
+.NombreFiltro{
+	margin-left: 12px;
+	font: 12px Arial, Verdana;
+}
+.HRFiltro{
+
+	width: 96%;
+	margin-left: 10px;
+	margin-top: -8px;
+}
+
+.SubMenu{
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 980px;
+	position: relative;
+}
+
+
+
+
+
+/*Estilos botones */
+.PosicionBotones { padding-top: 30px; margin-left: 360px;}
+.PosicionBotonesPopUp { padding-top: 10px; margin-left: 150px; margin-bottom: 6px;}
+
+/*Botones */
+
+.boton
+{ 
+	background-color: #6699cc;
+	cursor: pointer;
+	font-size: 12px; 
+	font-weight: bold; 
+	//width: 119px; 
+	//height: 30px;
+	text-align: center; 
+	//vertical-align: middle; 
+	padding: 8px 10px; 
+	color: white;
+	border: 1px solid #4985D6;}
+
+.boton:hover {
+	color: black;
+	background-color:#99ccff;
+
+}
+
+
+.labelSmall
+{
+	font-weight:bold; 
+	margin-left: 150px;
+}
+
+.AcomodaLabel
+{
+    text-align:right; 
+    font-weight:bold;
+    width: 150px;
+    float: left;
+}
+.AcomodaLabelBig
+{
+    text-align:right; 
+    font-weight:bold;
+    width: 280px;
+   font-size: 11px;
+    float: left;
+}
+.AcomodaTextBox
+{
+    height: 20px; 
+    width: 250px;
+    position: relative;
+    top: -5px;
+    left: 1px;
+}
+
+.AcomodaTextBoxDdl
+{
+    height: 20px; 
+    width: 197px;
+    position: relative;
+    top: -4px;
+    left: 5px;
+}
+
+.AcomodaMiniTextBox
+{
+    height: 20px; 
+    width: 20px;
+    position: relative;
+    top: -5px;
+    left: 1px;
+}
+
+.AcomodaDdl
+{
+    height: 24px; 
+    width: 252px;
+    position: relative;
+    top: -5px;
+    left: 5px;
+}
+.AcomodaDdlFiltro
+{
+    height: 24px; 
+    width: 162px;
+    position: relative;
+    top: -2px;
+    left: 5px;
+}
+.AcomodaDdlFiltroMedium
+{
+    height: 24px; 
+    width: 180px;
+    position: relative;
+    top: -2px;
+    left: 5px;
+}
+
+.AcomodaDdlFiltroGrande
+{
+    height: 24px; 
+    width: 258px;
+    position: relative;
+    top: -2px;
+    left: 5px;
+}
+.AcomodaMiniDdl
+{
+    height: 24px; 
+    width: 50px;
+    position: relative;
+    top: -5px;
+    left: 5px;
+}
+
+.AcomodaCalendario
+{
+	position: relative;
+    top: -2px;
+    left: 5px;
+	cursor: pointer;
+}
+
+#bajoTitulo
+{
+    position: relative;
+    top: 50px;
+}
+
+a.tooltip:hover { 
+text-decoration:none;
+} 
+
+a.tooltip span {
+display:none; 
+margin:0 0 0 10px; 
+padding:5px 5px; 
+} 
+
+a.tooltip:hover span {
+display:inline; 
+position:absolute; 
+border:1px solid #cccccc; 
+background:#ffffff; 
+color:#666666; 
+}
+
